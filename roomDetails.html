@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+  <link rel="stylesheet" href="assets/css/nice-select.css">
+  <link rel="stylesheet" href="assets/css/datepicker.css">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/meanmenu.css">
+  <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+  <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="assets/css/magnific-popup.css">
+  <link rel="stylesheet" href="assets/css/flaticon.css">
+  <link rel="stylesheet" href="assets/css/remixicon.css">
+  <link rel="stylesheet" href="assets/css/odometer.min.css">
+  <link rel="stylesheet" href="assets/css/aos.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/dark.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+  <link rel="stylesheet" href="assets/css/swiper.min.css">
+  <title>Amar kuthi</title>
+</head> 
+
+<body>
+  <section class="nave_menu">
+    <div class="knsl-first">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-sm-7 col-8">
+            <div class="tp-header-info d-flex align-items-center">
+              <div class="tp-header-info-item"><a href="#" target="_blank"><i class="fa-solid fa-envelope"></i> hotel@gmail.com</a></div>
+              <div class="tp-header-info-item"><a href="#" target="_blank"><i class="fa-solid fa-phone"></i> +(402) 763 282 46</a></div>
+            </div>
+          </div>
+          <div class="col-lg-5 col-0">
+            <form class="row">
+              <div class="col-4 "> 
+                <select class="form-select" aria-label="Default select example">
+                  <option selected>Search items</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+              </div>
+
+              <div class="col-7">
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Search...">
+              </div>
+
+              <div class="col-1">
+                <button type="submit" class="btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+              </div>
+
+            </form>
+          </div>
+          <div class="col-sm-2 offset-lg-0 offset-sm-3 offset-0 col-4">
+            <div class="log_sine d-flex align-items-center">
+              <div class="tp-header-login-icon"><i class="fa-solid fa-user"></i></div>
+              <div class="tp-header-login-title"><a href="login.html">Sign In</a></div>
+            </div>
+          </div>
+          <div class="col-lg-1 col-0">
+            <ul class="header-action cart-box">
+              <li><a href="#"><i class="far fa-heart"></i></a></li>
+              <li>
+                <a href="#" class="views_cart" data-bs-toggle="modal" data-bs-target="#sidebarModal">
+                  <i class="fa-solid fa-bag-shopping"></i>
+                  <span class="total-pro bigcounter">0</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="navbar-area knsl-top-bar">
+      <div class="container">
+        <div class="knsl-left-side">
+          <a href="index.html" class="knsl-logo-frame">
+            <img src="./assets/images/logo1.png" alt="Kinsley">
+          </a>
+        </div>
+        <div class="knsl-right-side">
+          <form class="row">
+            <div class="col-4"> 
+              <select class="form-select" aria-label="Default select example">
+                <option selected="">Search items</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+
+            <div class="col-7">
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Search...">
+            </div>
+
+            <div class="col-1">
+              <button type="submit" class="btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+
+          </form>
+          <div class="knsl-menu">
+            <nav>
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="rooms.html">Rooms</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </nav>
+          </div>
+          <a id="book-popup" class="default-btn btn">Book now<img src="assets/images/icons/bookmark.svg" alt="icon"></a>
+        </div>
+        <div class="btcart">
+          <ul class="header-action cart-box">
+            <li><a href="#"><i class="far fa-heart"></i></a></li>
+            <li>
+              <a href="#" class="views_cart" data-bs-toggle="modal" data-bs-target="#sidebarModal">
+                <i class="fa-solid fa-bag-shopping"></i>
+                <span class="total-pro bigcounter">0</span>
+              </a>
+            </li>
+          </ul>
+          <div class="knsl-menu-btn"><span></span></div>
+      </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- <section  class="knsl-banner">
+    <div class="knsl-book-form">
+      <form>
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="knsl-input-frame">
+              <label for="check-in">Check in</label>
+              <input id="check-in" type="text" class="datepicker-here" data-position="bottom left" placeholder="Select date" autocomplete="off" readonly="readonly">
+            </div>
+          </div>
+          <div class="col-lg-12">
+            <div class="knsl-input-frame">
+              <label for="check-out" class="knsl-add-icon">Check out</label>
+              <input id="check-out" type="text" class="datepicker-here" data-position="bottom left" placeholder="Select date" autocomplete="off" readonly="readonly">
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="knsl-select-frame">
+              <label for="person">Person</label>
+              <select id="person" class="drop_select">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4" disabled>4</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="knsl-select-frame">
+              <label for="children">Childrens</label>
+              <select id="children" class="drop_select">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4" disabled>4</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-lg-12 knsl-center">
+            <button type="submit" class="default-btn btn">Serch room</button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="knsl-cover-frame single-slider slider-bg">
+            <img src="assets/images/banners/3.jpg" alt="banner" class="knsl-parallax" style="position: relative; top: 242.4px;">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-8 align-self-center">
+                    <div class="knsl-main-title">
+                      <div class="knsl-white">
+                        <h1 class="knsl-mb-20">Welcome to Kinsley<br>5 star hotel</h1>
+                        <p class="knsl-mb-30">Deleniti nostrum laboriosam praesentium quasi quam voluptate.<br>Frycimus suscipit, nam mollitia quidem.</p>
+                        <a class="default-btn btn">Book Now<i class="fa-regular fa-bookmark"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4"></div>
+                </div>
+              </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="knsl-cover-frame single-slider slider-bg">
+            <img src="assets/images/banners/3.jpg" alt="banner" class="knsl-parallax" style="position: relative; top: 242.4px;">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-8 align-self-center">
+                    <div class="knsl-main-title">
+                      <div class="knsl-white">
+                        <h1 class="knsl-mb-20">Welcome to Kinsley<br>5 star hotel</h1>
+                        <p class="knsl-mb-30">Deleniti nostrum laboriosam praesentium quasi quam voluptate.<br>Frycimus suscipit, nam mollitia quidem.</p>
+                        <a class="default-btn btn">Shop Now <i class="flaticon-next"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4"></div>
+                </div>
+              </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="knsl-cover-frame single-slider slider-bg">
+            <img src="assets/images/banners/3.jpg" alt="banner" class="knsl-parallax" style="position: relative; top: 242.4px;">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-8 align-self-center">
+                    <div class="knsl-main-title">
+                      <div class="knsl-white">
+                        <h1 class="knsl-mb-20">Welcome to Kinsley<br>5 star hotel</h1>
+                        <p class="knsl-mb-30">Deleniti nostrum laboriosam praesentium quasi quam voluptate.<br>Frycimus suscipit, nam mollitia quidem.</p>
+                        <a class="default-btn btn">Book Now<i class="fa-regular fa-bookmark"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4"></div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section> -->
+   
+  <div class="knsl_rooms pt-100 pb-70">
+    <div class="container">
+      <div class="row" data-sticky-container>
+        <div class="col-lg-8">
+
+          <div class="knsl-room-detail-slider-frame knsl-mb-60">
+            <div class="swiper-container knsl-rd-slider-2 mb-2">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <a data-fancybox="gallery" href="assets/images/rooms/2.jpg" class="knsl-room-detail-photo-lg" data-swiper-parallax="-80" data-swiper-parallax-scale="1.2" data-swiper-parallax-duration="400">
+                    <img src="assets/images/rooms/2.jpg" alt="room">
+                    <span class="knsl-zoom"><i class="fas fa-search-plus"></i></span>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a data-fancybox="gallery" href="assets/images/rooms/3.jpg" class="knsl-room-detail-photo-lg" data-swiper-parallax="-80" data-swiper-parallax-scale="1.2" data-swiper-parallax-duration="400">
+                    <img src="assets/images/rooms/3.jpg" alt="room">
+                    <span class="knsl-zoom"><i class="fas fa-search-plus"></i></span>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a data-fancybox="gallery" href="assets/images/rooms/4.jpg" class="knsl-room-detail-photo-lg" data-swiper-parallax="-80" data-swiper-parallax-scale="1.2" data-swiper-parallax-duration="400">
+                    <img src="assets/images/rooms/4.jpg" alt="room">
+                    <span class="knsl-zoom"><i class="fas fa-search-plus"></i></span>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a data-fancybox="gallery" href="assets/images/rooms/5.jpg" class="knsl-room-detail-photo-lg" data-swiper-parallax="-80" data-swiper-parallax-scale="1.2" data-swiper-parallax-duration="400">
+                    <img src="assets/images/rooms/5.jpg" alt="room">
+                    <span class="knsl-zoom"><i class="fas fa-search-plus"></i></span>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a data-fancybox="gallery" href="assets/images/rooms/6.jpg" class="knsl-room-detail-photo-lg" data-swiper-parallax="-80" data-swiper-parallax-scale="1.2" data-swiper-parallax-duration="400">
+                    <img src="assets/images/rooms/6.jpg" alt="room">
+                    <span class="knsl-zoom"><i class="fas fa-search-plus"></i></span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-container knsl-rd-slider-1">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="knsl-room-detail-photo-sm">
+                    <img src="assets/images/rooms/2.jpg" alt="room">
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="knsl-room-detail-photo-sm">
+                    <img src="assets/images/rooms/3.jpg" alt="room">
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="knsl-room-detail-photo-sm">
+                    <img src="assets/images/rooms/4.jpg" alt="room">
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="knsl-room-detail-photo-sm">
+                    <img src="assets/images/rooms/5.jpg" alt="room">
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="knsl-room-detail-photo-sm">
+                    <img src="assets/images/rooms/6.jpg" alt="room">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- description -->
+          <section class="mb-5 knsl-scroll-animation">
+            <h3 class="mb-4">Kinsley is waiting for you!</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio veniam quibusdam fugit aspernatur ratione rerum necessitatibus ipsa eligendi? Laudantium beatae aut earum ab doloribus tempore veritatis repellat natus illo, veniam
+              quibusdam fugit aspernatur cumque harum quos esse libero nesciunt, molestiae saepe, possimus a suscipit! Minima aspernatur quod maxime quis facere facilis magnam, animi, quia id nihil reiciendis laboriosam, suscipit explicabo amet
+              quasi recusandae at</p>
+          </section>
+          <!-- description end -->
+
+          <!-- features -->
+          <section class="mb-5 knsl-amenity">
+            <div class="row">
+              <div class="col-lg-12">
+                <h3 class="mb-4 knsl-scroll-animation">Amenity</h3>
+              </div>
+              <div class="col-6 col-md-3">
+
+                <!-- icon box -->
+                <div class="knsl-icon-box knsl-icon-box-sm knsl-scroll-animation">
+                  <img src="assets/images/features/1.svg" alt="icon" class="knsl-mb-10">
+                  <h5>Airport transfer</h5>
+                </div>
+                <!-- icon box end -->
+
+              </div>
+              <div class="col-6 col-md-3">
+
+                <!-- icon box -->
+                <div class="knsl-icon-box knsl-icon-box-sm knsl-scroll-animation">
+                  <img src="assets/images/features/2.svg" alt="icon" class="knsl-mb-10">
+                  <h5>All inclusive</h5>
+                </div>
+                <!-- icon box end -->
+
+              </div>
+              <div class="col-6 col-md-3">
+
+                <!-- icon box -->
+                <div class="knsl-icon-box knsl-icon-box-sm knsl-scroll-animation">
+                  <img src="assets/images/features/3.svg" alt="icon" class="knsl-mb-10">
+                  <h5>Air-conditioned</h5>
+                </div>
+                <!-- icon box end -->
+
+              </div>
+              <div class="col-6 col-md-3">
+
+                <!-- icon box -->
+                <div class="knsl-icon-box knsl-icon-box-sm knsl-scroll-animation">
+                  <img src="assets/images/features/4.svg" alt="icon" class="knsl-mb-10">
+                  <h5>Under protection</h5>
+                </div>
+                <!-- icon box end -->
+
+              </div>
+              <div class="col-6 col-md-3">
+
+                <!-- icon box -->
+                <div class="knsl-icon-box knsl-icon-box-sm knsl-scroll-animation">
+                  <img src="assets/images/features/5.svg" alt="icon" class="knsl-mb-10">
+                  <h5>4 private pools</h5>
+                </div>
+                <!-- icon box end -->
+
+              </div>
+              <div class="col-6 col-md-3">
+
+                <!-- icon box -->
+                <div class="knsl-icon-box knsl-icon-box-sm knsl-scroll-animation">
+                  <img src="assets/images/features/6.svg" alt="icon" class="knsl-mb-10">
+                  <h5>Free wi-fi</h5>
+                </div>
+                <!-- icon box end -->
+
+              </div>
+              <div class="col-6 col-md-3">
+
+                <!-- icon box -->
+                <div class="knsl-icon-box knsl-icon-box-sm knsl-scroll-animation">
+                  <img src="assets/images/features/7.svg" alt="icon" class="knsl-mb-10">
+                  <h5>Smart TV</h5>
+                </div>
+                <!-- icon box end -->
+
+              </div>
+              <div class="col-6 col-md-3">
+
+                <!-- icon box -->
+                <div class="knsl-icon-box knsl-icon-box-sm knsl-scroll-animation">
+                  <img src="assets/images/features/8.svg" alt="icon" class="knsl-mb-10">
+                  <h5>Laundry</h5>
+                </div>
+                <!-- icon box end -->
+
+              </div>
+            </div>
+          </section>
+          <!-- features end -->
+
+          <!-- reviews -->
+          <section class="mb-5 knsl_reviews_view">
+            <div class="row">
+              <div class="col-lg-12">
+                <h3 class="mb-4 knsl-scroll-animation">Reviews</h3>
+              </div>
+              <div class="col-lg-12">
+
+                <div class="knsl-review-card knsl-scroll-animation">
+                  <div class="knsl-card-header">
+                    <div class="knsl-name-and-photo">
+                      <div class="knsl-avatar-frame">
+                        <img src="assets/images/faces/3.jpg" alt="Avatar">
+                      </div>
+                      <div>
+                        <h5>Sofia Oldman</h5>
+                        <span>14.07.2021</span>
+                      </div>
+                    </div>
+                    <ul class="knsl-stars">
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                    </ul>
+                  </div>
+                  <blockquote>
+                    Dequi folores dolor sit amet, consectetur adipisicing elit. Nesciunt illo, delectus totam! Delectus illo magnam voluptatem a tempora id vitae dolor, quis natus iusto molestiae ab nam error vero possimus ullam facilis porro
+                    veritatis.
+                  </blockquote>
+
+                </div>
+
+              </div>
+              <div class="col-lg-12">
+
+                <div class="knsl-review-card knsl-scroll-animation">
+                  <div class="knsl-card-header">
+                    <div class="knsl-name-and-photo">
+                      <div class="knsl-avatar-frame">
+                        <img src="assets/images/faces/2.jpg" alt="Avatar">
+                      </div>
+                      <div>
+                        <h5>Emma Newman</h5>
+                        <span>14.07.2021</span>
+                      </div>
+                    </div>
+                    <ul class="knsl-stars">
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li class="knsl-empty"><i class="fas fa-star"></i></li>
+                    </ul>
+                  </div>
+                  <blockquote>
+                    Dequi folores dolor sit amet, consectetur adipisicing elit. Nesciunt illo, delectus totam! Delectus illo magnam voluptatem a tempora id vitae dolor, quis natus iusto molestiae ab nam error vero possimus ullam facilis porro
+                    veritatis.
+                  </blockquote>
+
+                </div>
+
+              </div>
+            </div>
+          </section>
+          <!-- reviews end -->
+
+          <section class="mb-5 knsl_review_form">
+            <div class="row">
+              <div class="col-lg-12">
+                <h3 class="mb-4 knsl-scroll-animation">Leave a review</h3>
+              </div>
+              <div class="col-lg-12">
+                <form class="knsl-scroll-animation">
+                  <div class="row">
+                    <div class="col-lg-6">
+                      <input type="text" placeholder="Name">
+                    </div>
+                    <div class="col-lg-6">
+                      <input type="email" placeholder="Email">
+                    </div>
+                    <div class="col-lg-12">
+                      <textarea name="name" rows="8" placeholder="Text"></textarea>
+                    </div>
+                    <div class="col-lg-12">
+                      <div class="knsl-form-submit-frame">
+                        <button class="default-btn btn" data-fancybox>Send</button>
+                        <!-- <div class="knsl-text-sm">*We promise not to disclose your personal information to third parties.</div> -->
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </section>
+
+        </div>
+        <div class="col-lg-4">
+          <!-- sidebar -->
+          <div class="knsl-sticky knsl-stycky-right" data-margin-top="100">
+            <!-- <div class="knsl-room-features-lg knsl-mb-20">
+              <div class="knsl-feature">
+                <div class="knsl-icon-frame"><img src="assets/images/icons/bed.svg" alt="icon"></div>
+                <span>4 Guests</span>
+              </div>
+              <div class="knsl-feature">
+                <div class="knsl-icon-frame"><img src="assets/images/icons/square.svg" alt="icon"></div>
+                <span>95 Ft²</span>
+              </div>
+            </div> -->
+
+            <div class="knsl-price-card knsl-mb-20">
+              <div class="knsl-price-number">$175<span>/night</span></div>
+              <div class="default-btn btn">Reservation</div>
+            </div>
+
+            <div class="rooms_formes">
+              <div class="knsl-book-form">
+                <form>
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <div class="knsl-frame">
+                        <label class="form-label">Name</label>
+                        <input type="text" class="form-control"  id="exampleInputName" placeholder="Enter Your Name">
+                      </div>
+                    </div>
+
+                    <div class="col-lg-12">
+                      <div class="knsl-frame">
+                        <label class="form-label">Email</label>
+                        <input type="email" class="form-control"  id="exampleInputEmail" placeholder="Enter Your Email">
+                      </div>
+                    </div>
+
+                    <div class="col-lg-12">
+                      <div class="knsl-frame">
+                        <label class="form-label">Mobile Number</label>
+                        <input type="text" class="form-control"  id="exampleInputEmail" placeholder="Enter Your Mobile Number">
+                      </div>
+                    </div>
+
+                    <div class="col-lg-12">
+                      <div class="knsl-input-frame">
+                        <label for="check-in">Check in</label>
+                        <input id="check-in" type="text" class="datepicker-here" data-position="bottom left" placeholder="Select date" autocomplete="off" readonly="readonly">
+                      </div>
+                    </div>
+
+                    <div class="col-lg-12">
+                      <div class="knsl-input-frame">
+                        <label for="check-out" class="knsl-add-icon">Check out</label>
+                        <input id="check-out" type="text" class="datepicker-here" data-position="bottom left" placeholder="Select date" autocomplete="off" readonly="readonly">
+                      </div>
+                    </div>
+                    <div class="col-6">
+                      <div class="knsl-select-frame">
+                        <label for="person">Person</label>
+                        <select id="person" class="drop_select">
+                          <option value="1">1</option>
+                          <option value="2">2</option>
+                          <option value="3">3</option>
+                          <option value="4" disabled>4</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="col-6">
+                      <div class="knsl-select-frame">
+                        <label for="children">Childrens</label>
+                        <select id="children" class="drop_select">
+                          <option value="1">1</option>
+                          <option value="2">2</option>
+                          <option value="3">3</option>
+                          <option value="4" disabled>4</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="col-lg-12 knsl-center">
+                      <button type="submit" class="default-btn btn mt-4">Submit Now</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+          <!-- sidebar end -->
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="sidebarModal modal right fade" id="sidebarModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="cartmini__wrapper d-flex justify-content-between flex-column">
+            <div class="cartmini__top-wrapper">
+              <div class="cartmini__top p-relative mb-2">
+                <div class="cartmini__top-title">
+                  <h4>Shopping cart</h4>
+                </div>
+                <div class="cartmini__close">
+                  <button type="button" class="close" data-bs-dismiss="modal"><i class="ri-close-line"></i></button>
+                </div>
+              </div>
+              
+              <div class="cartmini__widget">
+                <div class="cartmini__widget-item">
+                  <div class="cartmini__thumb">
+                    <a href="/product-details/641e887d05f9ee1717e134c6">
+                      <img src="./assets/images/podcasts/https___i.ibb.co_HCzgB0m_watch-12.png">
+                    </a>
+                  </div>
+                  <div class="cartmini__content">
+                    <h5 class="cartmini__title">
+                      <a href="/product-details/641e887d05f9ee1717e134c6">Sony Lady Fitness Watch</a>
+                    </h5>
+                    <div class="cartmini__price-wrapper">
+                      <span class="cartmini__price">$145.50</span>
+                      <span class="cartmini__quantity"> x1</span>
+                    </div>
+                  </div>
+                  <a class="cartmini__del cursor-pointer"><i class="fa-solid fa-xmark"></i></a>
+                </div>
+
+                <div class="cartmini__widget-item">
+                  <div class="cartmini__thumb">
+                    <a href="/product-details/641e887d05f9ee1717e134c6">
+                      <img src="./assets/images/podcasts/https___i.ibb.co_HCzgB0m_watch-12.png">
+                    </a>
+                  </div>
+                  <div class="cartmini__content">
+                    <h5 class="cartmini__title">
+                      <a href="/product-details/641e887d05f9ee1717e134c6">Sony Lady Fitness Watch</a>
+                    </h5>
+                    <div class="cartmini__price-wrapper">
+                      <span class="cartmini__price">$145.50</span>
+                      <span class="cartmini__quantity"> x1</span>
+                    </div>
+                  </div>
+                  <a class="cartmini__del cursor-pointer"><i class="fa-solid fa-xmark"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="cartmini__checkout">
+              <div class="cartmini__checkout-title mb-4">
+                <h4>Subtotal:</h4>
+                <span>$120.00</span>
+              </div>
+              <div class="cartmini__checkout-btn">
+                <a class="tp-btn default-btn btn" href="#"> view cart</a>
+                <a class="tp-btn tp-btn-border default-btn btn mt-3" href="#"> checkout</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <section class="main_footer">
+    <div class="footer-area pt-100 pb-70">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-sm-6">
+            <div class="footer-logo-area">
+              <a href="index.html"><img src="assets/images/logo.png" class="footer-logo-image" alt="Image"></a>
+              <p>Sanu University was established by J.H Merthon in 1810 for the public benefit. Afterwards, it is recognized globally</p>
+              <div class="contact-list">
+                <ul class="tp-footer-social">
+                  <li>
+                    <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                  </li>
+
+                  <li>
+                    <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                  </li>
+
+                  <li>
+                    <a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                  </li>
+
+                  <li>
+                    <a href="https://vimeo.com/" target="_blank"><i class="fa-brands fa-vimeo-v"></i></a>
+                  </li>
+                </ul>
+                <!-- <ul>
+                  <li><a href="tel:+01987655567685">+01-9876-5556-7685</a></li>
+                  <li><a href="https://templates.hibootstrap.com/cdn-cgi/l/email-protection#0b6a6f6662654b786a657e256e6f7e"><span class="__cf_email__" data-cfemail="bbdadfd6d2d5fbc8dad5ce95dedfce">[email&nbsp;protected]</span></a></li>
+                </ul> -->
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-sm-6">
+            <div class="footer-widjet">
+              <h3>Quick Links</h3>
+              <div class="list">
+                <ul>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="products.html">Products</a></li>
+                  <li><a href="contact.html">Rooms</a></li>
+                  <li><a href="gallery.html">Gallery</a></li>
+                  <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="footer-widjet">
+              <h3>Our Company</h3>
+              <div class="list">
+                <ul>
+                  <li><a href="campus-life.html">Acedemic</a></li>
+                  <li><a href="campus-life.html">Planning &amp; AdminiStartion</a></li>
+                  <li><a href="campus-life.html">Campus Safety</a></li>
+                  <li><a href="campus-life.html">Office of the Chancellor</a></li>
+                  <li><a href="campus-life.html">Facility Services</a></li>
+                  <li><a href="campus-life.html">Human Resources</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="footer-widjet">
+              <h3>Connect Us</h3>
+              <div class="list">
+                <ul class="quick_cont">
+                  <li><i class="fa-solid fa-location-dot"></i><a href="#" target="_blank">79 Sleepy Hollow St. Jamaica, New York 1432</a></li>
+                  <li><i class="fa-solid fa-phone"></i>
+                    <a href="tal:+48 222 197 553" target="_blank">+91 222 197 5535</a>
+                    
+                  </li>
+                  <li><i class="fa-solid fa-envelope"></i>
+                    <span>
+                      <a href="mailto:info@amerkuthi.com" target="_blank">info@amerkuthi.com</a>
+                      <a href="mailto:info@amerkuthi.com" target="_blank">hgfhhh@fgdamerkuthi.com</a>
+                    </span>
+                  </li>
+                </ul>
+
+                <ul class="payment_image">
+                  <li><a href="#"><img src="./assets/images/podcasts/payment1.png" alt=""></a></li>
+                  <li><a href="#"><img src="./assets/images/podcasts/payment2.png" alt=""></a></li>
+                  <li><a href="#"><img src="./assets/images/podcasts/payment3.png" alt=""></a></li>
+                  <li><a href="#"><img src="./assets/images/podcasts/payment4.png" alt=""></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="shape">
+          <img src="assets/images/shape-1.png" alt="Image">
+        </div>
+      </div>
+    </div>
+
+    <div class="copyright-area">
+      <div class="container">
+        <div class="copyright">
+          <div class="row">
+            <div class="col-lg-8 col-12">
+              <div class="copy">
+                <p>© 2023 All Rights Reserved Designed & Development by <a href="https://www.desuntechnology.in/" target="_blank">Desun Technology</a></p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-12">
+              <div class="social-content">
+                <ul>
+                  <li><a href="#">Terms & Conditions</a></li>
+                  <li><a href="#">Privacy Policy</a></li>
+                  <li><a href="#">Refund</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+    <!-- popup end -->
+    
+  <div class="go-top">
+    <i class="ri-arrow-up-s-line"></i>
+    <i class="ri-arrow-up-s-line"></i>
+  </div>
+
+</body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/jquery.min.js"></script>
+  <script src="assets/js/jquery.nice-select.min.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/jquery.meanmenu.js"></script>
+  <script src="assets/js/owl.carousel.min.js"></script>
+  <script src="assets/js/aos.js"></script>
+  <script src="assets/js/odometer.min.js"></script>
+  <script src="assets/js/appear.min.js"></script>
+  <script src="assets/js/custom.js"></script>
+  <script src="assets/js/datepicker.js"></script>
+  <script src="assets/js/script.js"></script>
+  <script src="assets/js/swiper.min.js"></script>
+</html>
